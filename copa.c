@@ -23,11 +23,11 @@ int main(){
     }
 
     if(verificar == 1){
-        printf("A Copa do Mundo de Futebol ocorreu no ano de %d.", ano);
+        printf("A Copa do Mundo de Futebol ocorreu no ano de %d.\n", ano);
     }   else if(verificar1 == 1){
-        printf("Os Jogos Olímpicos de Verão ocorreram no ano de %d.", ano);
+        printf("Os Jogos Olimpicos de Verao ocorreram no ano de %d.\n", ano);
     }   else{
-        printf("Não houve Jogos Olímpicos de Verão ou Copa do Mundo no ano de %d.", ano);
+        printf("Nao houve Jogos Olimpicos de Verao ou Copa do Mundo no ano de %d.\n", ano);
     }
 
     return 0;
